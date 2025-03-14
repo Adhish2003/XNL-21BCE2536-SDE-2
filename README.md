@@ -1,4 +1,5 @@
-This web app is designed to offer users a fun and educational platform to learn about investing by simulating stock market trading in a risk-free environment. The app is built using a modern tech stack that ensures scalability, real-time updates, and a smooth user experience. Here's a detailed breakdown of its components:
+
+![image](https://github.com/user-attachments/assets/843af8dd-3f61-4658-ac64-f554fd8e9a72)
 
 1. Frontend (ReactJS):
 ReactJS is used to build a dynamic, responsive frontend, providing users with an interactive experience.
