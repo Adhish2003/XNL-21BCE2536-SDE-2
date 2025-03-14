@@ -39,3 +39,23 @@ Users can view their portfolio to see how their investments are performing. This
 The app provides a dashboard with charts and tables for easy understanding of their investments.
 Transaction History:
 Users can review their transaction history, including the stocks they’ve bought or sold, the price at which they were bought/sold, and their remaining budget.
+
+Important features:
+
+Real-time Notifications(have to be implemented): Users can receive notifications about significant market changes, such as a stock reaching a certain price or a significant change in their portfolio value. This can be implemented using WebSockets or a similar real-time communication protocol.
+
+Watchlist: Allow users to add stocks to a watchlist so they can track stocks of interest without having to invest in them. This helps users stay updated on specific stock performances.
+
+Stock Analysis: Integrate technical indicators (e.g., moving averages, RSI) to help users make more informed decisions. This could include displaying stock performance over different time frames.
+
+Security Enhancements: Ensure that sensitive data (like passwords) is encrypted in the database using bcrypt or a similar library. Secure API routes should also include rate limiting and input validation to prevent abuse.
+
+Testing: Implement unit and integration tests for both the backend and frontend to ensure that the app functions correctly and remains robust as you introduce new features.
+
+User Roles: Consider adding different user roles (e.g., Admin for managing stocks and monitoring user activity) if you want to extend the app’s functionality for more advanced use cases.
+
+Advanced Portfolio Analytics: Provide detailed analytics on the user’s portfolio, such as the percentage gain/loss, risk analysis, and other financial metrics that help users understand their portfolio's performance better.
+
+API Rate Limiting: For the stock data APIs, ensure you have rate-limiting in place to avoid hitting API limits, especially when dealing with third-party services like Alpha Vantage or Yahoo Finance.
+
+These features could further enhance the user experience and functionality of your app.
