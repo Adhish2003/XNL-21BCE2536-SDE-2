@@ -6,6 +6,7 @@ ReactJS is used to build a dynamic, responsive frontend, providing users with an
 Material UI is utilized for a clean and professional design, ensuring that the app looks visually appealing and user-friendly.
 React Routing helps in navigating between different pages like the homepage, stock dashboard, and user profile.
 React Hooks are used for managing state and side-effects in a functional component style. This ensures efficient re-rendering of the UI whenever the state changes, improving the performance and user interaction.
+
 2. Backend (Node.js and ExpressJS):
 Node.js serves as the runtime environment for executing JavaScript code on the server-side. It ensures that the backend of the app is scalable and can handle concurrent requests efficiently.
 ExpressJS is a minimal web framework that simplifies the creation of RESTful APIs. It is used to handle routes for user authentication, retrieving stock information, and managing user transactions (buy/sell stocks).
@@ -19,10 +20,12 @@ Stock data is parsed and sent to the frontend where it can be displayed in chart
 User Transactions:
 Users can simulate buying and selling stocks. The backend ensures that the transactions are processed correctly within the user’s $100k budget.
 Each transaction is stored in the database for tracking user portfolios and stock holdings.
+
 3. Database (MongoDB):
 MongoDB is a NoSQL database that stores user and stock-related data. Its flexible schema allows for easy scaling and fast retrieval of data.
 The user data (username, password, budget, transaction history, portfolio) is stored in a collection.
 The stock data (including stock symbol, price, and user transactions) is also stored in MongoDB, allowing easy updates and queries as users interact with the app.
+
 4. Features of the App:
 User Authentication: Secure login/signup using JWT tokens or session-based authentication.
 Stock Market Simulation:
