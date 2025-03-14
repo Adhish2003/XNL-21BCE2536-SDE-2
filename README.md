@@ -57,5 +57,3 @@ User Roles: Consider adding different user roles (e.g., Admin for managing stock
 Advanced Portfolio Analytics: Provide detailed analytics on the user’s portfolio, such as the percentage gain/loss, risk analysis, and other financial metrics that help users understand their portfolio's performance better.
 
 API Rate Limiting: For the stock data APIs, ensure you have rate-limiting in place to avoid hitting API limits, especially when dealing with third-party services like Alpha Vantage or Yahoo Finance.
-
-These features could further enhance the user experience and functionality of your app.
